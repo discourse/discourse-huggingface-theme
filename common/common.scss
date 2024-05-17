@@ -1,0 +1,27 @@
+:root {
+  --tertiary-low: var(--quaternary-low);
+  --d-hover: var(--quaternary-low);
+  --d-sidebar-highlight-background: var(--secondary);
+  --tertiary-med-or-tertiary: var(--quaternary);
+  --d-input-border-radius: 6px;
+  --d-border-radius: 6px;
+}
+
+.d-header {
+  box-shadow: none;
+  border-bottom: 1px solid var(--primary-low);
+}
+
+.sidebar-container {
+  background-image: linear-gradient(
+    to left,
+    var(--primary-very-low),
+    var(--secondary)
+  );
+}
+
+.cooked a,
+.d-editor-preview a,
+#banner-content a {
+  text-decoration: underline;
+}

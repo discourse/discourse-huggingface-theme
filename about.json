@@ -7,10 +7,19 @@
   "theme_version": "0.0.1",
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
-  "assets": {
-  },
-  "modifiers": {
-  },
   "color_schemes": {
+    "HF Light": {
+      "primary-very-low": "F9F9FA",
+      "primary": "111111",
+      "secondary": "ffffff",
+      "tertiary": "000000",
+      "quaternary": "f3940e",
+      "header_background": "ffffff",
+      "header_primary": "111111",
+      "highlight": "ffff4d",
+      "danger": "FF6681",
+      "success": "2FBB93",
+      "love": "f3940e"
+    }
   }
 }
