@@ -25,3 +25,12 @@
 #banner-content a {
   text-decoration: underline;
 }
+
+input,
+summary,
+.d-editor-textarea-wrapper,
+.sidebar-filter,
+.search-input {
+  // ensures borders around inputs are more subdued in dark mode
+  --tertiary: var(--secondary-high);
+}
